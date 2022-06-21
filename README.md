@@ -40,11 +40,10 @@ cucumber -t <TAG> -p default
 **Boas práticas:**
 
 - Seguir o [Padrão de escrita dos Gherkins]
-- Dar uma atenção em especial para as tags, pois existem Bots que dependem desta estrutura para funcionar corretamente
 - Os cenários devem ser escritos em português e todo o desenvolvimento em inglês
 - Os steps devem fazer apenas o que se propõem, nada a mais, nada a menos
 - Prezar pelo reaproveitamento dos steps
-- Lógica que serão reaproveitadas em N lugares, devem estar na estrutura `features\support\commons\commons` ou `features\support\commons\utils`
+- Lógica que serão reaproveitadas em N lugares, devem estar na estrutura `features\support\commons\commons`
 
 **Parâmetros:**
 
