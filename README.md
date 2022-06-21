@@ -56,3 +56,11 @@ cucumber -t <TAG> -p default
 - reports\evidences\AAAAMMDD - evidências geradas de cada execução por dia e hora
 - reports\features_report.html - report cucumber em html
 - reports\features_report.json - report cucumber em json para ser utilizado em outros modelos de report
+
+
+
+
+
+
+
+© Copyright João Gilberto. Todos os direitos reservados.
