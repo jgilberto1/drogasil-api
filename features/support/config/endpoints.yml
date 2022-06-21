@@ -1,0 +1,3 @@
+token_login: /rest/V1/integration/customer/token
+token_cart: /discount/v1/token/generate
+cart: /rest/V1/carts/mine
