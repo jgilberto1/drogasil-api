@@ -5,11 +5,9 @@ Dir[File.join(File.dirname(__FILE__), 'commons/*.rb')].sort.each { |file| requir
 require 'rspec'
 require 'httparty'
 require 'pry'
-require 'faker'
-require 'cpf_faker'
 require 'logger'
 require 'brstring'
-require 'json_matchers/rspec'
+
 
 silence_warnings do
   OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
