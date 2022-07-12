@@ -12,7 +12,7 @@ module Bff
         response
       end
 
-      def consultaItems(_request)
+      def consultaItems(request)
         response = self.class.get('/totals', headers: { 'Authorization' => 'Bearer ' + ApiCommons.token_login })
         ApiCommons.generate_evidence response
         response
